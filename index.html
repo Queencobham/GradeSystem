@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Grading System</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+				<p>GRADING SYSTEM</p>
+		<table>
+			<tr>
+				<th scope="row">Subjects</th>
+				<th>Score</th>
+				<th>Grade</th>
+			</tr>
+			<tr>
+				<td>Mathematics</td>
+				<td>
+					<input
+						type="text"
+						id="mathematics"
+						onkeyup="Grade('mathematics')"
+						placeholder="Enter score"
+					/>
+				</td>
+				<td>
+					<span id="output-mathematics" style="background-color:transparent;"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>English</td>
+				<td>
+					<input
+						type="text"
+						id="english"
+						onkeyup="Grade('english')"
+						placeholder="Enter score"
+					/>
+				</td>
+				<td>
+					<span id="output-english" style="background-color:transparent;"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Computer Science</td>
+				<td>
+					<input
+						type="text"
+						id="computer-science"
+						onkeyup="Grade('computer-science')"
+						placeholder="Enter score"
+					/>
+				</td>
+				<td>
+					<span id="output-computer-science" style="background-color:transparent;"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Physics</td>
+				<td>
+					<input
+						type="text"
+						id="physics"
+						onkeyup="Grade('physics')"
+						placeholder="Enter score"
+					/>
+				</td>
+				<td>
+					<span id="output-physics" style="background-color:transparent;"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Biology</td>
+				<td>
+					<input
+						type="text"
+						id="biology"
+						onkeyup="Grade('biology')"
+						placeholder="Enter score"
+					/>
+				</td>
+				<td>
+					<span id="output-biology" style="background-color:transparent;"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Chemistry</td>
+				<td>
+					<input
+						type="text"
+						id="chemistry"
+						onkeyup="Grade('chemistry')"
+						placeholder="Enter score"
+					/>
+				</td>
+				<td>
+					<span id="output-chemistry" style="background-color:transparent; "></span>
+				</td>
+			</tr>
+		 </table>
+		 
+		 <button class="button" id="get-total" onclick="total()">Total</button>
+			<p id="border-box"> </p>
+			<p id="border-box1"> </p>
+	</div>
+		<script src="main.js"></script>
+	</body>
+</html>
