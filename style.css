@@ -57,7 +57,7 @@ input[type='text'] {
 	width: 90px;
 }
 #get-total{
-	width:11%;
+	width:15%;
 	height:35px;
 	background-color: #696969;
 	color: #fff;
@@ -80,7 +80,7 @@ input[type='text'] {
 }
 #border-box1{
 	color: black;
-	font-size: 27px;
+	font-size: 25px;
 	font-weight: 600;
 	font-family: 'Times New Roman', Times, serif;
 	margin-left: -4%;
