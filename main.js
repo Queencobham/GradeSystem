@@ -4,13 +4,13 @@ function Grade(id) {
 
     if (!grade.trim().length){
 			result.innerHTML =''
-	}else if (grade >= 90 && grade <= 100) {
+	}else if (grade >= 80 && grade <= 100) {
 		result.innerHTML = 'A'
-	} else if (grade >= 80 && grade < 90) {
-		result.innerHTML = 'B'
 	} else if (grade >= 70 && grade < 80) {
-		result.innerHTML = 'C'
+		result.innerHTML = 'B'
 	} else if (grade >= 60 && grade < 70) {
+		result.innerHTML = 'C'
+	} else if (grade >= 50 && grade < 60) {
 		result.innerHTML = 'D'
 	} else if (grade < 60) {
 		result.innerHTML = 'F'
